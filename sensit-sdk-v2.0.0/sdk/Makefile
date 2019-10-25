@@ -7,14 +7,14 @@
 # SDK LIBRARY
 # -----------
 LIB_NAME = SENSIT_SDK_V2.0.0
-LIB_PATH = C:/Users/LENOVO/Documents/Réseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib
+LIB_PATH = C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib
 
 
 # --------------
 # OUTPUT FOLDERS
 # --------------
-BIN_PATH =C:/Users/LENOVO/Documents/Réseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/bin
-OBJ_PATH = C:/Users/LENOVO/Documents/Réseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/obj
+BIN_PATH = C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/bin
+OBJ_PATH = C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/obj
 
 
 # ------------
@@ -30,9 +30,9 @@ SIZE_OUTPUT = $(OUTPUT_NAME).siz
 # ---------
 # TOOLCHAIN
 # ---------
-CC = C:/Program Files (x86)/GNU Tools ARM Embedded/8 2019-q3-update/bin/arm-none-eabi-gcc
-BIN_TOOL  = C:/Program Files (x86)/GNU Tools ARM Embedded/8 2019-q3-update/binarm-none-eabi-objcopy
-SIZE_TOOL = C:/Program Files (x86)/GNU Tools ARM Embedded/8 2019-q3-update/binarm-none-eabi-size
+CC = "C:/Program Files (x86)/GNU Tools ARM Embedded/8 2019-q3-update/bin/arm-none-eabi-gcc"
+BIN_TOOL  = "C:/Program Files (x86)/GNU Tools ARM Embedded/8 2019-q3-update/bin/arm-none-eabi-objcopy"
+SIZE_TOOL = "C:/Program Files (x86)/GNU Tools ARM Embedded/8 2019-q3-update/bin/arm-none-eabi-size"
 
 
 # -------------------
@@ -190,4 +190,4 @@ dir:
 
 # Rule for USB flashing using dfu file manager (vendor id 0483)
 prog:
-	"C:/Users/LENOVO/Documents/Réseaux_Ubiquitaire/dfu-util-0.9-win64/dfu-util-0.9-win64dfu-util" -a 0 -s 0x08000000:leave -D $(BIN_PATH)/$(BIN_OUTPUT)
+	"C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/dfu-util-0.9-win64/dfu-util-0.9-win64dfu-util" -a 0 -s 0x08000000:leave -D $(BIN_PATH)/$(BIN_OUTPUT)
