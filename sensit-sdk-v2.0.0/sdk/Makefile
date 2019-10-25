@@ -190,4 +190,4 @@ dir:
 
 # Rule for USB flashing using dfu file manager (vendor id 0483)
 prog:
-	"C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/dfu-util-0.9-win64/dfu-util-0.9-win64dfu-util" -a 0 -s 0x08000000:leave -D $(BIN_PATH)/$(BIN_OUTPUT)
+	"C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/dfu-util-0.9-win64/dfu-util-0.9-win64/dfu-util" -a 0 -s 0x08000000:leave -D $(BIN_PATH)/$(BIN_OUTPUT)
