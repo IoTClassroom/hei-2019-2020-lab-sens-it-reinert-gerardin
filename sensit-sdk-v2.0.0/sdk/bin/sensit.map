@@ -854,7 +854,7 @@ LOAD C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-rei
                 0x08000000                g_pfnVectors
                 0x080000c0                . = ALIGN (0x4)
 
-.text           0x080000c0     0x5a78
+.text           0x080000c0     0x5a74
                 0x080000c0                . = ALIGN (0x4)
  *(.text)
  .text          0x080000c0       0x14 c:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp\libgcc.a(_thumb1_case_uqi.o)
@@ -953,651 +953,651 @@ LOAD C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-rei
                 0x0800145c       0x28 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/obj/fxos8700.o
                 0x0800145c                FXOS8700_clear_transient_interrupt
  .text.startup.main
-                0x08001484       0xf0 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/obj/main.o
+                0x08001484       0xec C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/obj/main.o
                 0x08001484                main
  .text.MCU_API_malloc
-                0x08001574       0x14 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
-                0x08001574                MCU_API_malloc
+                0x08001570       0x14 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
+                0x08001570                MCU_API_malloc
  .text.MCU_API_free
-                0x08001588        0x4 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
-                0x08001588                MCU_API_free
+                0x08001584        0x4 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
+                0x08001584                MCU_API_free
  .text.MCU_API_get_voltage_temperature
-                0x0800158c       0x22 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
-                0x0800158c                MCU_API_get_voltage_temperature
+                0x08001588       0x22 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
+                0x08001588                MCU_API_get_voltage_temperature
  .text.MCU_API_delay
-                0x080015ae       0x3e C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
-                0x080015ae                MCU_API_delay
+                0x080015aa       0x3e C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
+                0x080015aa                MCU_API_delay
  .text.MCU_API_aes_128_cbc_encrypt
-                0x080015ec       0x62 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
-                0x080015ec                MCU_API_aes_128_cbc_encrypt
+                0x080015e8       0x62 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
+                0x080015e8                MCU_API_aes_128_cbc_encrypt
  .text.MCU_API_get_nv_mem
-                0x0800164e        0xe C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
-                0x0800164e                MCU_API_get_nv_mem
+                0x0800164a        0xe C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
+                0x0800164a                MCU_API_get_nv_mem
  .text.MCU_API_set_nv_mem
-                0x0800165c       0x16 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
-                0x0800165c                MCU_API_set_nv_mem
- *fill*         0x08001672        0x2 
+                0x08001658       0x16 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
+                0x08001658                MCU_API_set_nv_mem
+ *fill*         0x0800166e        0x2 
  .text.MCU_API_timer_start_carrier_sense
-                0x08001674       0x60 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
-                0x08001674                MCU_API_timer_start_carrier_sense
+                0x08001670       0x60 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
+                0x08001670                MCU_API_timer_start_carrier_sense
  .text.TIM16_IRQHandler
-                0x080016d4       0x24 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
-                0x080016d4                TIM16_IRQHandler
+                0x080016d0       0x24 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
+                0x080016d0                TIM16_IRQHandler
  .text.MCU_API_timer_start
-                0x080016f8        0xc C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
-                0x080016f8                MCU_API_timer_start
+                0x080016f4        0xc C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
+                0x080016f4                MCU_API_timer_start
  .text.MCU_API_timer_stop
-                0x08001704        0x4 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
-                0x08001704                MCU_API_timer_stop
+                0x08001700        0x4 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
+                0x08001700                MCU_API_timer_stop
  .text.MCU_API_timer_stop_carrier_sense
-                0x08001708       0x38 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
-                0x08001708                MCU_API_timer_stop_carrier_sense
+                0x08001704       0x38 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
+                0x08001704                MCU_API_timer_stop_carrier_sense
  .text.MCU_API_timer_wait_for_end
-                0x08001740       0x10 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
-                0x08001740                MCU_API_timer_wait_for_end
+                0x0800173c       0x10 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
+                0x0800173c                MCU_API_timer_wait_for_end
  .text.MCU_API_report_test_result
-                0x08001750        0xa C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
-                0x08001750                MCU_API_report_test_result
+                0x0800174c        0xa C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
+                0x0800174c                MCU_API_report_test_result
  .text.MCU_API_get_device_id
-                0x0800175a       0x12 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
-                0x0800175a                MCU_API_get_device_id
+                0x08001756       0x12 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
+                0x08001756                MCU_API_get_device_id
  .text.NVMEM_API_get_device_id
-                0x0800176c       0x2c C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(nvmem_api.o)
-                0x0800176c                NVMEM_API_get_device_id
+                0x08001768       0x2c C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(nvmem_api.o)
+                0x08001768                NVMEM_API_get_device_id
  .text.NVMEM_API_get_frequency_calibration
-                0x08001798       0x1c C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(nvmem_api.o)
-                0x08001798                NVMEM_API_get_frequency_calibration
+                0x08001794       0x1c C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(nvmem_api.o)
+                0x08001794                NVMEM_API_get_frequency_calibration
  .text.NVMEM_API_get_radio_configuration
-                0x080017b4       0x14 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(nvmem_api.o)
-                0x080017b4                NVMEM_API_get_radio_configuration
+                0x080017b0       0x14 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(nvmem_api.o)
+                0x080017b0                NVMEM_API_get_radio_configuration
  .text.NVMEM_API_compute_aes
-                0x080017c8       0xc8 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(nvmem_api.o)
-                0x080017c8                NVMEM_API_compute_aes
+                0x080017c4       0xc8 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(nvmem_api.o)
+                0x080017c4                NVMEM_API_compute_aes
  .text.NVMEM_API_init_page_index
-                0x08001890       0xb4 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(nvmem_api.o)
-                0x08001890                NVMEM_API_init_page_index
+                0x0800188c       0xb4 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(nvmem_api.o)
+                0x0800188c                NVMEM_API_init_page_index
  .text.NVMEM_API_init
-                0x08001944       0xa0 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(nvmem_api.o)
-                0x08001944                NVMEM_API_init
+                0x08001940       0xa0 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(nvmem_api.o)
+                0x08001940                NVMEM_API_init
  .text.NVMEM_API_set_data
-                0x080019e4       0xd8 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(nvmem_api.o)
-                0x080019e4                NVMEM_API_set_data
+                0x080019e0       0xd8 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(nvmem_api.o)
+                0x080019e0                NVMEM_API_set_data
  .text.NVMEM_API_get_data
-                0x08001abc       0x58 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(nvmem_api.o)
-                0x08001abc                NVMEM_API_get_data
+                0x08001ab8       0x58 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(nvmem_api.o)
+                0x08001ab8                NVMEM_API_get_data
  .text.RADIO_init
-                0x08001b14       0x1c C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(radio.o)
-                0x08001b14                RADIO_init
+                0x08001b10       0x1c C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(radio.o)
+                0x08001b10                RADIO_init
  .text.RADIO_power_on
-                0x08001b30       0x44 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(radio.o)
-                0x08001b30                RADIO_power_on
+                0x08001b2c       0x44 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(radio.o)
+                0x08001b2c                RADIO_power_on
  .text.RADIO_power_off
-                0x08001b74       0x2c C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(radio.o)
-                0x08001b74                RADIO_power_off
+                0x08001b70       0x2c C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(radio.o)
+                0x08001b70                RADIO_power_off
  .text.RADIO_get_state
-                0x08001ba0        0xc C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(radio.o)
-                0x08001ba0                RADIO_get_state
+                0x08001b9c        0xc C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(radio.o)
+                0x08001b9c                RADIO_get_state
  .text.RADIO_set_rf_line
-                0x08001bac       0x50 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(radio.o)
-                0x08001bac                RADIO_set_rf_line
+                0x08001ba8       0x50 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(radio.o)
+                0x08001ba8                RADIO_set_rf_line
  .text.RADIO_is_600bps
-                0x08001bfc       0x18 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(radio.o)
-                0x08001bfc                RADIO_is_600bps
+                0x08001bf8       0x18 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(radio.o)
+                0x08001bf8                RADIO_is_600bps
  .text.RTC_init
-                0x08001c14       0x2c C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(rtc.o)
-                0x08001c14                RTC_init
+                0x08001c10       0x2c C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(rtc.o)
+                0x08001c10                RTC_init
  .text.RTC_get_current_time
-                0x08001c40        0xc C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(rtc.o)
-                0x08001c40                RTC_get_current_time
+                0x08001c3c        0xc C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(rtc.o)
+                0x08001c3c                RTC_get_current_time
  .text.RTC_set_alarm_timer
-                0x08001c4c       0x14 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(rtc.o)
-                0x08001c4c                RTC_set_alarm_timer
+                0x08001c48       0x14 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(rtc.o)
+                0x08001c48                RTC_set_alarm_timer
  .text.RTC_set_rx_timer
-                0x08001c60        0xc C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(rtc.o)
-                0x08001c60                RTC_set_rx_timer
+                0x08001c5c        0xc C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(rtc.o)
+                0x08001c5c                RTC_set_rx_timer
  .text.RTC_wait_frame
-                0x08001c6c       0x2c C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(rtc.o)
-                0x08001c6c                RTC_wait_frame
+                0x08001c68       0x2c C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(rtc.o)
+                0x08001c68                RTC_wait_frame
  .text.RTC_IRQHandler
-                0x08001c98       0x68 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(rtc.o)
-                0x08001c98                RTC_IRQHandler
- .text._init    0x08001d00       0x1c C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
-                0x08001d00                _init
+                0x08001c94       0x68 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(rtc.o)
+                0x08001c94                RTC_IRQHandler
+ .text._init    0x08001cfc       0x1c C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
+                0x08001cfc                _init
  .text.SENSIT_API_configure_radio
-                0x08001d1c       0x2a C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
-                0x08001d1c                SENSIT_API_configure_radio
+                0x08001d18       0x2a C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
+                0x08001d18                SENSIT_API_configure_radio
  .text.SENSIT_API_switch_radio
-                0x08001d46       0x38 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
-                0x08001d46                SENSIT_API_switch_radio
- *fill*         0x08001d7e        0x2 
+                0x08001d42       0x38 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
+                0x08001d42                SENSIT_API_switch_radio
+ *fill*         0x08001d7a        0x2 
  .text.SENSIT_API_reset
-                0x08001d80       0x60 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
-                0x08001d80                SENSIT_API_reset
+                0x08001d7c       0x60 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
+                0x08001d7c                SENSIT_API_reset
  .text.SENSIT_API_sleep
-                0x08001de0        0xa C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
-                0x08001de0                SENSIT_API_sleep
+                0x08001ddc        0xa C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
+                0x08001ddc                SENSIT_API_sleep
  .text.SENSIT_API_set_rtc_alarm
-                0x08001dea        0xa C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
-                0x08001dea                SENSIT_API_set_rtc_alarm
+                0x08001de6        0xa C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
+                0x08001de6                SENSIT_API_set_rtc_alarm
  .text.SENSIT_API_configure_button
-                0x08001df4       0x50 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
-                0x08001df4                SENSIT_API_configure_button
+                0x08001df0       0x50 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
+                0x08001df0                SENSIT_API_configure_button
  .text.SENSIT_API_get_button_state
-                0x08001e44       0x14 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
-                0x08001e44                SENSIT_API_get_button_state
+                0x08001e40       0x14 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
+                0x08001e40                SENSIT_API_get_button_state
  .text.SENSIT_API_set_rgb_led
-                0x08001e58       0x30 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
-                0x08001e58                SENSIT_API_set_rgb_led
+                0x08001e54       0x30 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
+                0x08001e54                SENSIT_API_set_rgb_led
  .text.SENSIT_API_set_white_led
-                0x08001e88       0x18 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
-                0x08001e88                SENSIT_API_set_white_led
+                0x08001e84       0x18 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
+                0x08001e84                SENSIT_API_set_white_led
  .text.SENSIT_API_get_battery_level
-                0x08001ea0        0xe C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
-                0x08001ea0                SENSIT_API_get_battery_level
+                0x08001e9c        0xe C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
+                0x08001e9c                SENSIT_API_get_battery_level
  .text.SENSIT_API_get_current_time
-                0x08001eae        0xe C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
-                0x08001eae                SENSIT_API_get_current_time
+                0x08001eaa        0xe C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
+                0x08001eaa                SENSIT_API_get_current_time
  .text.SENSIT_API_wait
-                0x08001ebc        0xa C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
-                0x08001ebc                SENSIT_API_wait
+                0x08001eb8        0xa C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
+                0x08001eb8                SENSIT_API_wait
  .text.SENSIT_API_write_read_i2c_bus
-                0x08001ec6       0x20 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
-                0x08001ec6                SENSIT_API_write_read_i2c_bus
- *fill*         0x08001ee6        0x2 
+                0x08001ec2       0x20 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
+                0x08001ec2                SENSIT_API_write_read_i2c_bus
+ *fill*         0x08001ee2        0x2 
  .text.SENSIT_API_configure_fxos8700_interrupt
-                0x08001ee8       0x30 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
-                0x08001ee8                SENSIT_API_configure_fxos8700_interrupt
+                0x08001ee4       0x30 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
+                0x08001ee4                SENSIT_API_configure_fxos8700_interrupt
  .text.SENSIT_API_reset_device_sequence_number
-                0x08001f18       0x20 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
-                0x08001f18                SENSIT_API_reset_device_sequence_number
+                0x08001f14       0x20 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
+                0x08001f14                SENSIT_API_reset_device_sequence_number
  .text.SIGFOX_API_open
-                0x08001f38      0x1b4 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_api.o)
-                0x08001f38                SIGFOX_API_open
+                0x08001f34      0x1b4 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_api.o)
+                0x08001f34                SIGFOX_API_open
  .text.SIGFOX_API_send_frame
-                0x080020ec       0x48 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_api.o)
-                0x080020ec                SIGFOX_API_send_frame
+                0x080020e8       0x48 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_api.o)
+                0x080020e8                SIGFOX_API_send_frame
  .text.SIGFOX_API_set_std_config
-                0x08002134       0x90 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_api.o)
-                0x08002134                SIGFOX_API_set_std_config
+                0x08002130       0x90 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_api.o)
+                0x08002130                SIGFOX_API_set_std_config
  .text.SIGFOX_INT_randomize
-                0x080021c4       0x16 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
-                0x080021c4                SIGFOX_INT_randomize
+                0x080021c0       0x16 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
+                0x080021c0                SIGFOX_INT_randomize
  .text.SIGFOX_INT_get_max_micro_channel
-                0x080021da       0x30 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
-                0x080021da                SIGFOX_INT_get_max_micro_channel
+                0x080021d6       0x30 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
+                0x080021d6                SIGFOX_INT_get_max_micro_channel
  .text.SIGFOX_INT_get_macro_channel_index
-                0x0800220a       0x5a C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
-                0x0800220a                SIGFOX_INT_get_macro_channel_index
+                0x08002206       0x5a C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
+                0x08002206                SIGFOX_INT_get_macro_channel_index
  .text.SIGFOX_INT_dc_lbt_channel_pn_max
-                0x08002264       0x30 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
-                0x08002264                SIGFOX_INT_dc_lbt_channel_pn_max
+                0x08002260       0x30 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
+                0x08002260                SIGFOX_INT_dc_lbt_channel_pn_max
  .text.SIGFOX_INT_dc_lbt_channel_pn_min
-                0x08002294       0x22 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
-                0x08002294                SIGFOX_INT_dc_lbt_channel_pn_min
+                0x08002290       0x22 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
+                0x08002290                SIGFOX_INT_dc_lbt_channel_pn_min
  .text.RETURN_CODE
-                0x080022b6        0x8 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
-                0x080022b6                RETURN_CODE
- *fill*         0x080022be        0x2 
+                0x080022b2        0x8 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
+                0x080022b2                RETURN_CODE
+ *fill*         0x080022ba        0x2 
  .text.SIGFOX_INT_compute_channels
-                0x080022c0      0x134 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
-                0x080022c0                SIGFOX_INT_compute_channels
+                0x080022bc      0x134 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
+                0x080022bc                SIGFOX_INT_compute_channels
  .text.SIGFOX_INT_compute_carrier_sense_frequency
-                0x080023f4       0x2e C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
-                0x080023f4                SIGFOX_INT_compute_carrier_sense_frequency
+                0x080023f0       0x2e C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
+                0x080023f0                SIGFOX_INT_compute_carrier_sense_frequency
  .text.SIGFOX_INT_store_nvm
-                0x08002422       0x32 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
-                0x08002422                SIGFOX_INT_store_nvm
+                0x0800241e       0x32 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
+                0x0800241e                SIGFOX_INT_store_nvm
  .text.SIGFOX_INT_build_frame
-                0x08002454      0x1da C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
-                0x08002454                SIGFOX_INT_build_frame
- *fill*         0x0800262e        0x2 
+                0x08002450      0x1da C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
+                0x08002450                SIGFOX_INT_build_frame
+ *fill*         0x0800262a        0x2 
  .text.SIGFOX_INT_prepare_transmission
-                0x08002630       0x88 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
-                0x08002630                SIGFOX_INT_prepare_transmission
+                0x0800262c       0x88 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
+                0x0800262c                SIGFOX_INT_prepare_transmission
  .text.SIGFOX_INT_send_single_frame
-                0x080026b8       0x98 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
-                0x080026b8                SIGFOX_INT_send_single_frame
+                0x080026b4       0x98 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
+                0x080026b4                SIGFOX_INT_send_single_frame
  .text.SIGFOX_INT_execute_carrier_sense
-                0x08002750       0x3a C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
-                0x08002750                SIGFOX_INT_execute_carrier_sense
+                0x0800274c       0x3a C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
+                0x0800274c                SIGFOX_INT_execute_carrier_sense
  .text.SIGFOX_INT_downlink_configuration
-                0x0800278a       0x4c C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
-                0x0800278a                SIGFOX_INT_downlink_configuration
+                0x08002786       0x4c C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
+                0x08002786                SIGFOX_INT_downlink_configuration
  .text.SIGFOX_INT_get_received_frames
-                0x080027d6      0x10a C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
-                0x080027d6                SIGFOX_INT_get_received_frames
+                0x080027d2      0x10a C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
+                0x080027d2                SIGFOX_INT_get_received_frames
  .text.SIGFOX_INT_process_downlink
-                0x080028e0       0x46 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
-                0x080028e0                SIGFOX_INT_process_downlink
- *fill*         0x08002926        0x2 
+                0x080028dc       0x46 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
+                0x080028dc                SIGFOX_INT_process_downlink
+ *fill*         0x08002922        0x2 
  .text.SIGFOX_INT_compute_uplink_frequency
-                0x08002928       0x94 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
-                0x08002928                SIGFOX_INT_compute_uplink_frequency
+                0x08002924       0x94 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
+                0x08002924                SIGFOX_INT_compute_uplink_frequency
  .text.SIGFOX_INT_process_uplink
-                0x080029bc      0x28c C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
-                0x080029bc                SIGFOX_INT_process_uplink
+                0x080029b8      0x28c C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
+                0x080029b8                SIGFOX_INT_process_uplink
  .text.SIGFOX_INT_execute_communication_sequence
-                0x08002c48      0x118 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
-                0x08002c48                SIGFOX_INT_execute_communication_sequence
+                0x08002c44      0x118 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
+                0x08002c44                SIGFOX_INT_execute_communication_sequence
  .text.SIGFOX_INT_get_device_id
-                0x08002d60       0x18 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
-                0x08002d60                SIGFOX_INT_get_device_id
+                0x08002d5c       0x18 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
+                0x08002d5c                SIGFOX_INT_get_device_id
  .text.SIGFOX_PN_next_pn
-                0x08002d78       0x50 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_pn.o)
-                0x08002d78                SIGFOX_PN_next_pn
+                0x08002d74       0x50 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_pn.o)
+                0x08002d74                SIGFOX_PN_next_pn
  .text.SIGFOX_SCRAMB_compute
-                0x08002dc8       0x8c C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_scramb.o)
-                0x08002dc8                SIGFOX_SCRAMB_compute
+                0x08002dc4       0x8c C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_scramb.o)
+                0x08002dc4                SIGFOX_SCRAMB_compute
  .text.SLEEP_handler
-                0x08002e54       0x88 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sleep.o)
-                0x08002e54                SLEEP_handler
+                0x08002e50       0x88 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sleep.o)
+                0x08002e50                SLEEP_handler
  .text.SPI_init
-                0x08002edc       0x30 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(spi.o)
-                0x08002edc                SPI_init
+                0x08002ed8       0x30 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(spi.o)
+                0x08002ed8                SPI_init
  .text.SPI_disable
-                0x08002f0c       0x34 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(spi.o)
-                0x08002f0c                SPI_disable
+                0x08002f08       0x34 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(spi.o)
+                0x08002f08                SPI_disable
  .text.SPI_enable
-                0x08002f40       0x30 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(spi.o)
-                0x08002f40                SPI_enable
+                0x08002f3c       0x30 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(spi.o)
+                0x08002f3c                SPI_enable
  .text.SPI_write_read
-                0x08002f70       0x2c C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(spi.o)
-                0x08002f70                SPI_write_read
+                0x08002f6c       0x2c C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(spi.o)
+                0x08002f6c                SPI_write_read
  .text.Reset_Handler
-                0x08002f9c       0x80 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(startup_stm32f042x6.o)
-                0x08002f9c                Reset_Handler
+                0x08002f98       0x80 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(startup_stm32f042x6.o)
+                0x08002f98                Reset_Handler
  .text.Default_Handler
-                0x0800301c        0x2 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(startup_stm32f042x6.o)
-                0x0800301c                TIM1_CC_IRQHandler
-                0x0800301c                TSC_IRQHandler
-                0x0800301c                SysTick_Handler
-                0x0800301c                PendSV_Handler
-                0x0800301c                I2C1_IRQHandler
-                0x0800301c                RCC_CRS_IRQHandler
-                0x0800301c                SPI1_IRQHandler
-                0x0800301c                EXTI2_3_IRQHandler
-                0x0800301c                ADC1_IRQHandler
-                0x0800301c                TIM17_IRQHandler
-                0x0800301c                CEC_CAN_IRQHandler
-                0x0800301c                PVD_VDDIO2_IRQHandler
-                0x0800301c                TIM3_IRQHandler
-                0x0800301c                DMA1_Channel1_IRQHandler
-                0x0800301c                Default_Handler
-                0x0800301c                TIM14_IRQHandler
-                0x0800301c                DMA1_Channel4_5_IRQHandler
-                0x0800301c                EXTI0_1_IRQHandler
-                0x0800301c                SPI2_IRQHandler
-                0x0800301c                SVC_Handler
-                0x0800301c                DMA1_Channel2_3_IRQHandler
-                0x0800301c                USART2_IRQHandler
-                0x0800301c                FLASH_IRQHandler
-                0x0800301c                TIM1_BRK_UP_TRG_COM_IRQHandler
- *fill*         0x0800301e        0x2 
+                0x08003018        0x2 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(startup_stm32f042x6.o)
+                0x08003018                TIM1_CC_IRQHandler
+                0x08003018                TSC_IRQHandler
+                0x08003018                SysTick_Handler
+                0x08003018                PendSV_Handler
+                0x08003018                I2C1_IRQHandler
+                0x08003018                RCC_CRS_IRQHandler
+                0x08003018                SPI1_IRQHandler
+                0x08003018                EXTI2_3_IRQHandler
+                0x08003018                ADC1_IRQHandler
+                0x08003018                TIM17_IRQHandler
+                0x08003018                CEC_CAN_IRQHandler
+                0x08003018                PVD_VDDIO2_IRQHandler
+                0x08003018                TIM3_IRQHandler
+                0x08003018                DMA1_Channel1_IRQHandler
+                0x08003018                Default_Handler
+                0x08003018                TIM14_IRQHandler
+                0x08003018                DMA1_Channel4_5_IRQHandler
+                0x08003018                EXTI0_1_IRQHandler
+                0x08003018                SPI2_IRQHandler
+                0x08003018                SVC_Handler
+                0x08003018                DMA1_Channel2_3_IRQHandler
+                0x08003018                USART2_IRQHandler
+                0x08003018                FLASH_IRQHandler
+                0x08003018                TIM1_BRK_UP_TRG_COM_IRQHandler
+ *fill*         0x0800301a        0x2 
  .text.SystemInit
-                0x08003020      0x178 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(system_stm32f0xx.o)
-                0x08003020                SystemInit
+                0x0800301c      0x178 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(system_stm32f0xx.o)
+                0x0800301c                SystemInit
  .text.SYSTICK_wait_ms
-                0x08003198       0x84 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(systick.o)
-                0x08003198                SYSTICK_wait_ms
+                0x08003194       0x84 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(systick.o)
+                0x08003194                SYSTICK_wait_ms
  .text.SYSTICK_wait_tick
-                0x0800321c       0x38 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(systick.o)
-                0x0800321c                SYSTICK_wait_tick
+                0x08003218       0x38 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(systick.o)
+                0x08003218                SYSTICK_wait_tick
  .text.USART1_IRQHandler
-                0x08003254       0x68 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(uart.o)
-                0x08003254                USART1_IRQHandler
+                0x08003250       0x68 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(uart.o)
+                0x08003250                USART1_IRQHandler
  .text.HAL_PCD_SetupStageCallback
-                0x080032bc       0x14 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
-                0x080032bc                HAL_PCD_SetupStageCallback
+                0x080032b8       0x14 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
+                0x080032b8                HAL_PCD_SetupStageCallback
  .text.HAL_PCD_DataOutStageCallback
-                0x080032d0       0x18 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
-                0x080032d0                HAL_PCD_DataOutStageCallback
+                0x080032cc       0x18 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
+                0x080032cc                HAL_PCD_DataOutStageCallback
  .text.HAL_PCD_DataInStageCallback
-                0x080032e8       0x16 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
-                0x080032e8                HAL_PCD_DataInStageCallback
+                0x080032e4       0x16 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
+                0x080032e4                HAL_PCD_DataInStageCallback
  .text.HAL_PCD_SOFCallback
-                0x080032fe        0xe C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
-                0x080032fe                HAL_PCD_SOFCallback
+                0x080032fa        0xe C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
+                0x080032fa                HAL_PCD_SOFCallback
  .text.HAL_PCD_ResetCallback
-                0x0800330c       0x18 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
-                0x0800330c                HAL_PCD_ResetCallback
+                0x08003308       0x18 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
+                0x08003308                HAL_PCD_ResetCallback
  .text.HAL_PCD_SuspendCallback
-                0x08003324        0xe C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
-                0x08003324                HAL_PCD_SuspendCallback
+                0x08003320        0xe C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
+                0x08003320                HAL_PCD_SuspendCallback
  .text.HAL_PCD_ResumeCallback
-                0x08003332        0xe C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
-                0x08003332                HAL_PCD_ResumeCallback
+                0x0800332e        0xe C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
+                0x0800332e                HAL_PCD_ResumeCallback
  .text.USBD_LL_OpenEP
-                0x08003340       0x16 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
-                0x08003340                USBD_LL_OpenEP
+                0x0800333c       0x16 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
+                0x0800333c                USBD_LL_OpenEP
  .text.USBD_LL_StallEP
-                0x08003356       0x10 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
-                0x08003356                USBD_LL_StallEP
+                0x08003352       0x10 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
+                0x08003352                USBD_LL_StallEP
  .text.USBD_LL_ClearStallEP
-                0x08003366       0x10 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
-                0x08003366                USBD_LL_ClearStallEP
+                0x08003362       0x10 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
+                0x08003362                USBD_LL_ClearStallEP
  .text.USBD_LL_IsStallEP
-                0x08003376       0x26 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
-                0x08003376                USBD_LL_IsStallEP
+                0x08003372       0x26 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
+                0x08003372                USBD_LL_IsStallEP
  .text.USBD_LL_SetUSBAddress
-                0x0800339c       0x10 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
-                0x0800339c                USBD_LL_SetUSBAddress
+                0x08003398       0x10 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
+                0x08003398                USBD_LL_SetUSBAddress
  .text.USBD_LL_Transmit
-                0x080033ac       0x10 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
-                0x080033ac                USBD_LL_Transmit
+                0x080033a8       0x10 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
+                0x080033a8                USBD_LL_Transmit
  .text.USBD_LL_PrepareReceive
-                0x080033bc       0x10 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
-                0x080033bc                USBD_LL_PrepareReceive
+                0x080033b8       0x10 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
+                0x080033b8                USBD_LL_PrepareReceive
  .text.USB_IRQHandler
-                0x080033cc       0x10 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
-                0x080033cc                USB_IRQHandler
+                0x080033c8       0x10 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
+                0x080033c8                USB_IRQHandler
  .text.USBD_SetClassConfig
-                0x080033dc       0x1a C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_core.o)
-                0x080033dc                USBD_SetClassConfig
+                0x080033d8       0x1a C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_core.o)
+                0x080033d8                USBD_SetClassConfig
  .text.USBD_ClrClassConfig
-                0x080033f6       0x10 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_core.o)
-                0x080033f6                USBD_ClrClassConfig
- *fill*         0x08003406        0x2 
+                0x080033f2       0x10 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_core.o)
+                0x080033f2                USBD_ClrClassConfig
+ *fill*         0x08003402        0x2 
  .text.USBD_LL_SetupStage
-                0x08003408       0x68 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_core.o)
-                0x08003408                USBD_LL_SetupStage
+                0x08003404       0x68 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_core.o)
+                0x08003404                USBD_LL_SetupStage
  .text.USBD_LL_DataOutStage
-                0x08003470       0x74 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_core.o)
-                0x08003470                USBD_LL_DataOutStage
+                0x0800346c       0x74 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_core.o)
+                0x0800346c                USBD_LL_DataOutStage
  .text.USBD_LL_DataInStage
-                0x080034e4       0xac C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_core.o)
-                0x080034e4                USBD_LL_DataInStage
+                0x080034e0       0xac C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_core.o)
+                0x080034e0                USBD_LL_DataInStage
  .text.USBD_LL_Reset
-                0x08003590       0x48 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_core.o)
-                0x08003590                USBD_LL_Reset
+                0x0800358c       0x48 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_core.o)
+                0x0800358c                USBD_LL_Reset
  .text.USBD_LL_SetSpeed
-                0x080035d8        0x6 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_core.o)
-                0x080035d8                USBD_LL_SetSpeed
+                0x080035d4        0x6 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_core.o)
+                0x080035d4                USBD_LL_SetSpeed
  .text.USBD_LL_Suspend
-                0x080035de       0x16 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_core.o)
-                0x080035de                USBD_LL_Suspend
+                0x080035da       0x16 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_core.o)
+                0x080035da                USBD_LL_Suspend
  .text.USBD_LL_Resume
-                0x080035f4        0xe C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_core.o)
-                0x080035f4                USBD_LL_Resume
+                0x080035f0        0xe C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_core.o)
+                0x080035f0                USBD_LL_Resume
  .text.USBD_LL_SOF
-                0x08003602       0x1e C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_core.o)
-                0x08003602                USBD_LL_SOF
+                0x080035fe       0x1e C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_core.o)
+                0x080035fe                USBD_LL_SOF
  .text.USBD_CtlError.constprop.0
-                0x08003620       0x14 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_ctlreq.o)
+                0x0800361c       0x14 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_ctlreq.o)
  .text.USBD_StdDevReq
-                0x08003634      0x224 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_ctlreq.o)
-                0x08003634                USBD_StdDevReq
+                0x08003630      0x224 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_ctlreq.o)
+                0x08003630                USBD_StdDevReq
  .text.USBD_StdItfReq
-                0x08003858       0x38 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_ctlreq.o)
-                0x08003858                USBD_StdItfReq
+                0x08003854       0x38 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_ctlreq.o)
+                0x08003854                USBD_StdItfReq
  .text.USBD_StdEPReq
-                0x08003890       0xd4 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_ctlreq.o)
-                0x08003890                USBD_StdEPReq
+                0x0800388c       0xd4 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_ctlreq.o)
+                0x0800388c                USBD_StdEPReq
  .text.USBD_ParseSetupRequest
-                0x08003964       0x28 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_ctlreq.o)
-                0x08003964                USBD_ParseSetupRequest
+                0x08003960       0x28 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_ctlreq.o)
+                0x08003960                USBD_ParseSetupRequest
  .text.USBD_CtlSendData
-                0x0800398c       0x1c C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_ioreq.o)
-                0x0800398c                USBD_CtlSendData
+                0x08003988       0x1c C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_ioreq.o)
+                0x08003988                USBD_CtlSendData
  .text.USBD_CtlContinueSendData
-                0x080039a8       0x10 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_ioreq.o)
-                0x080039a8                USBD_CtlContinueSendData
+                0x080039a4       0x10 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_ioreq.o)
+                0x080039a4                USBD_CtlContinueSendData
  .text.USBD_CtlContinueRx
-                0x080039b8       0x10 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_ioreq.o)
-                0x080039b8                USBD_CtlContinueRx
+                0x080039b4       0x10 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_ioreq.o)
+                0x080039b4                USBD_CtlContinueRx
  .text.USBD_CtlSendStatus
-                0x080039c8       0x18 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_ioreq.o)
-                0x080039c8                USBD_CtlSendStatus
+                0x080039c4       0x18 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_ioreq.o)
+                0x080039c4                USBD_CtlSendStatus
  .text.USBD_CtlReceiveStatus
-                0x080039e0       0x18 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_ioreq.o)
-                0x080039e0                USBD_CtlReceiveStatus
+                0x080039dc       0x18 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_ioreq.o)
+                0x080039dc                USBD_CtlReceiveStatus
  .text.WATCHDOG_clear
-                0x080039f8       0x10 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(watchdog.o)
-                0x080039f8                WATCHDOG_clear
+                0x080039f4       0x10 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(watchdog.o)
+                0x080039f4                WATCHDOG_clear
  .text.ADC_init
-                0x08003a08       0x88 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(adc.o)
-                0x08003a08                ADC_init
+                0x08003a04       0x88 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(adc.o)
+                0x08003a04                ADC_init
  .text.ADC_measure_battery
-                0x08003a90       0x84 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(adc.o)
-                0x08003a90                ADC_measure_battery
+                0x08003a8c       0x84 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(adc.o)
+                0x08003a8c                ADC_measure_battery
  .text.ADC_get_last_battery_level
-                0x08003b14        0xc C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(adc.o)
-                0x08003b14                ADC_get_last_battery_level
+                0x08003b10        0xc C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(adc.o)
+                0x08003b10                ADC_get_last_battery_level
  .text.ADC_get_battery_level
-                0x08003b20       0x10 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(adc.o)
-                0x08003b20                ADC_get_battery_level
+                0x08003b1c       0x10 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(adc.o)
+                0x08003b1c                ADC_get_battery_level
  .text.ADC_measure_temperature
-                0x08003b30       0x68 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(adc.o)
-                0x08003b30                ADC_measure_temperature
+                0x08003b2c       0x68 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(adc.o)
+                0x08003b2c                ADC_measure_temperature
  .text.AESEncode
-                0x08003b98      0x1c0 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(aes.o)
-                0x08003b98                AESEncode
+                0x08003b94      0x1c0 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(aes.o)
+                0x08003b94                AESEncode
  .text.calibReadHSI48clk
-                0x08003d58       0x84 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(calib.o)
+                0x08003d54       0x84 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(calib.o)
  .text.calibRTCclkIsCalibrated
-                0x08003ddc      0x1a0 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(calib.o)
-                0x08003ddc                calibRTCclkIsCalibrated
+                0x08003dd8      0x1a0 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(calib.o)
+                0x08003dd8                calibRTCclkIsCalibrated
  .text.calibHSI48clkIsCalibrated
-                0x08003f7c       0x90 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(calib.o)
-                0x08003f7c                calibHSI48clkIsCalibrated
+                0x08003f78       0x90 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(calib.o)
+                0x08003f78                calibHSI48clkIsCalibrated
  .text.CC1125_send_strobe
-                0x0800400c       0x2c C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(cc1125.o)
-                0x0800400c                CC1125_send_strobe
+                0x08004008       0x2c C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(cc1125.o)
+                0x08004008                CC1125_send_strobe
  .text.CC1125_write_reg
-                0x08004038       0x54 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(cc1125.o)
-                0x08004038                CC1125_write_reg
+                0x08004034       0x54 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(cc1125.o)
+                0x08004034                CC1125_write_reg
  .text.CC1125_read_reg
-                0x0800408c       0x54 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(cc1125.o)
-                0x0800408c                CC1125_read_reg
+                0x08004088       0x54 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(cc1125.o)
+                0x08004088                CC1125_read_reg
  .text.CC1125_output_clock
-                0x080040e0       0x18 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(cc1125.o)
-                0x080040e0                CC1125_output_clock
+                0x080040dc       0x18 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(cc1125.o)
+                0x080040dc                CC1125_output_clock
  .text.CRC_compute
-                0x080040f8       0x4c C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(crc.o)
-                0x080040f8                CRC_compute
+                0x080040f4       0x4c C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(crc.o)
+                0x080040f4                CRC_compute
  .text.FLASH_unlock
-                0x08004144       0x3c C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(flash.o)
-                0x08004144                FLASH_unlock
+                0x08004140       0x3c C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(flash.o)
+                0x08004140                FLASH_unlock
  .text.FLASH_lock
-                0x08004180       0x14 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(flash.o)
-                0x08004180                FLASH_lock
+                0x0800417c       0x14 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(flash.o)
+                0x0800417c                FLASH_lock
  .text.FLASH_write
-                0x08004194       0x40 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(flash.o)
-                0x08004194                FLASH_write
+                0x08004190       0x40 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(flash.o)
+                0x08004190                FLASH_write
  .text.FLASH_erase_page
-                0x080041d4       0x90 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(flash.o)
-                0x080041d4                FLASH_erase_page
+                0x080041d0       0x90 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(flash.o)
+                0x080041d0                FLASH_erase_page
  .text._handler
-                0x08004264       0x44 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(gpio.o)
+                0x08004260       0x44 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(gpio.o)
  .text.GPIO_init
-                0x080042a8       0xcc C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(gpio.o)
-                0x080042a8                GPIO_init
+                0x080042a4       0xcc C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(gpio.o)
+                0x080042a4                GPIO_init
  .text.EXTI4_15_IRQHandler
-                0x08004374       0x88 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(gpio.o)
-                0x08004374                EXTI4_15_IRQHandler
+                0x08004370       0x88 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(gpio.o)
+                0x08004370                EXTI4_15_IRQHandler
  .text.HardFault_Handler
-                0x080043fc        0x8 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(gpio.o)
-                0x080043fc                HardFault_Handler
+                0x080043f8        0x8 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(gpio.o)
+                0x080043f8                HardFault_Handler
  .text.NMI_Handler
-                0x08004404        0x8 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(gpio.o)
-                0x08004404                NMI_Handler
+                0x08004400        0x8 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(gpio.o)
+                0x08004400                NMI_Handler
  .text.WWDG_IRQHandler
-                0x0800440c        0x8 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(gpio.o)
-                0x0800440c                WWDG_IRQHandler
+                0x08004408        0x8 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(gpio.o)
+                0x08004408                WWDG_IRQHandler
  .text.I2C_init
-                0x08004414       0x30 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(i2c.o)
-                0x08004414                I2C_init
+                0x08004410       0x30 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(i2c.o)
+                0x08004410                I2C_init
  .text.I2C_write_read
-                0x08004444      0x160 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(i2c.o)
-                0x08004444                I2C_write_read
+                0x08004440      0x160 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(i2c.o)
+                0x08004440                I2C_write_read
  .text.LED_set_toggle_color
-                0x080045a4        0xc C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(led.o)
-                0x080045a4                LED_set_toggle_color
+                0x080045a0        0xc C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(led.o)
+                0x080045a0                LED_set_toggle_color
  .text.LED_toggle
-                0x080045b0       0x5c C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(led.o)
-                0x080045b0                LED_toggle
+                0x080045ac       0x5c C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(led.o)
+                0x080045ac                LED_toggle
  .text.my_memcpy
-                0x0800460c       0x1c C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(my_string.o)
-                0x0800460c                my_memcpy
+                0x08004608       0x1c C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(my_string.o)
+                0x08004608                my_memcpy
  .text.my_memcmp
-                0x08004628       0x1c C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(my_string.o)
-                0x08004628                my_memcmp
+                0x08004624       0x1c C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(my_string.o)
+                0x08004624                my_memcmp
  .text.RF_API_init
-                0x08004644       0x64 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(rf_api.o)
-                0x08004644                RF_API_init
+                0x08004640       0x64 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(rf_api.o)
+                0x08004640                RF_API_init
  .text.RF_API_stop
-                0x080046a8       0x28 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(rf_api.o)
-                0x080046a8                RF_API_stop
+                0x080046a4       0x28 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(rf_api.o)
+                0x080046a4                RF_API_stop
  .text.RF_API_send
-                0x080046d0       0x3c C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(rf_api.o)
-                0x080046d0                RF_API_send
+                0x080046cc       0x3c C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(rf_api.o)
+                0x080046cc                RF_API_send
  .text.RF_API_change_frequency
-                0x0800470c      0x180 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(rf_api.o)
-                0x0800470c                RF_API_change_frequency
+                0x08004708      0x180 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(rf_api.o)
+                0x08004708                RF_API_change_frequency
  .text.RF_API_wait_frame
-                0x0800488c       0xe0 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(rf_api.o)
-                0x0800488c                RF_API_wait_frame
+                0x08004888       0xe0 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(rf_api.o)
+                0x08004888                RF_API_wait_frame
  .text.RF_API_wait_for_clear_channel
-                0x0800496c       0xb0 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(rf_api.o)
-                0x0800496c                RF_API_wait_for_clear_channel
+                0x08004968       0xb0 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(rf_api.o)
+                0x08004968                RF_API_wait_for_clear_channel
  .text.SIGFOX_CRC_crc16
-                0x08004a1c       0x3c C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_crc.o)
-                0x08004a1c                SIGFOX_CRC_crc16
+                0x08004a18       0x3c C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_crc.o)
+                0x08004a18                SIGFOX_CRC_crc16
  .text.SIGFOX_CRC_crc8
-                0x08004a58       0x34 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_crc.o)
-                0x08004a58                SIGFOX_CRC_crc8
+                0x08004a54       0x34 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_crc.o)
+                0x08004a54                SIGFOX_CRC_crc8
  .text.SIGFOX_DECODE_dewhitening_pn
-                0x08004a8c       0x26 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_decode.o)
- *fill*         0x08004ab2        0x2 
+                0x08004a88       0x26 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_decode.o)
+ *fill*         0x08004aae        0x2 
  .text.SIGFOX_DECODE_decode_frame
-                0x08004ab4      0x164 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_decode.o)
-                0x08004ab4                SIGFOX_DECODE_decode_frame
+                0x08004ab0      0x164 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_decode.o)
+                0x08004ab0                SIGFOX_DECODE_decode_frame
  .text.SIGFOX_HMAC_compute_aes
-                0x08004c18       0x54 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_hmac.o)
-                0x08004c18                SIGFOX_HMAC_compute_aes
+                0x08004c14       0x54 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_hmac.o)
+                0x08004c14                SIGFOX_HMAC_compute_aes
  .text.PCD_WritePMA
-                0x08004c6c       0x28 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(stm32f0xx_hal_pcd.o)
+                0x08004c68       0x28 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(stm32f0xx_hal_pcd.o)
  .text.PCD_ReadPMA
-                0x08004c94       0x20 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(stm32f0xx_hal_pcd.o)
+                0x08004c90       0x20 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(stm32f0xx_hal_pcd.o)
  .text.HAL_PCD_SetAddress
-                0x08004cb4       0x2c C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(stm32f0xx_hal_pcd.o)
-                0x08004cb4                HAL_PCD_SetAddress
+                0x08004cb0       0x2c C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(stm32f0xx_hal_pcd.o)
+                0x08004cb0                HAL_PCD_SetAddress
  .text.HAL_PCD_EP_Open
-                0x08004ce0      0x2b0 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(stm32f0xx_hal_pcd.o)
-                0x08004ce0                HAL_PCD_EP_Open
+                0x08004cdc      0x2b0 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(stm32f0xx_hal_pcd.o)
+                0x08004cdc                HAL_PCD_EP_Open
  .text.HAL_PCD_EP_Receive
-                0x08004f90       0xe8 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(stm32f0xx_hal_pcd.o)
-                0x08004f90                HAL_PCD_EP_Receive
+                0x08004f8c       0xe8 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(stm32f0xx_hal_pcd.o)
+                0x08004f8c                HAL_PCD_EP_Receive
  .text.HAL_PCD_EP_Transmit
-                0x08005078      0x1e4 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(stm32f0xx_hal_pcd.o)
-                0x08005078                HAL_PCD_EP_Transmit
+                0x08005074      0x1e4 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(stm32f0xx_hal_pcd.o)
+                0x08005074                HAL_PCD_EP_Transmit
  .text.HAL_PCD_IRQHandler
-                0x0800525c      0x464 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(stm32f0xx_hal_pcd.o)
-                0x0800525c                HAL_PCD_IRQHandler
+                0x08005258      0x464 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(stm32f0xx_hal_pcd.o)
+                0x08005258                HAL_PCD_IRQHandler
  .text.HAL_PCD_EP_SetStall
-                0x080056c0       0x90 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(stm32f0xx_hal_pcd.o)
-                0x080056c0                HAL_PCD_EP_SetStall
+                0x080056bc       0x90 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(stm32f0xx_hal_pcd.o)
+                0x080056bc                HAL_PCD_EP_SetStall
  .text.HAL_PCD_EP_ClrStall
-                0x08005750       0xbc C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(stm32f0xx_hal_pcd.o)
-                0x08005750                HAL_PCD_EP_ClrStall
+                0x0800574c       0xbc C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(stm32f0xx_hal_pcd.o)
+                0x0800574c                HAL_PCD_EP_ClrStall
  .text.MODULATION_ramp_up
-                0x0800580c       0x28 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(modulation.o)
+                0x08005808       0x28 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(modulation.o)
  .text.MODULATION_ramp_down
-                0x08005834       0x2c C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(modulation.o)
+                0x08005830       0x2c C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(modulation.o)
  .text.MODULATION_init
-                0x08005860       0xe0 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(modulation.o)
-                0x08005860                MODULATION_init
+                0x0800585c       0xe0 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(modulation.o)
+                0x0800585c                MODULATION_init
  .text.MODULATION_stop
-                0x08005940       0x3c C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(modulation.o)
-                0x08005940                MODULATION_stop
+                0x0800593c       0x3c C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(modulation.o)
+                0x0800593c                MODULATION_stop
  .text.MODULATION_process
-                0x0800597c       0xa4 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(modulation.o)
-                0x0800597c                MODULATION_process
+                0x08005978       0xa4 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(modulation.o)
+                0x08005978                MODULATION_process
  .text.TIM2_IRQHandler
-                0x08005a20       0x2c C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(modulation.o)
-                0x08005a20                TIM2_IRQHandler
+                0x08005a1c       0x2c C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(modulation.o)
+                0x08005a1c                TIM2_IRQHandler
  .text.__libc_init_array
-                0x08005a4c       0x44 c:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-init.o)
-                0x08005a4c                __libc_init_array
- .text.memset   0x08005a90       0xa8 c:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-memset.o)
-                0x08005a90                memset
+                0x08005a48       0x44 c:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-init.o)
+                0x08005a48                __libc_init_array
+ .text.memset   0x08005a8c       0xa8 c:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-memset.o)
+                0x08005a8c                memset
  *(.glue_7)
- .glue_7        0x08005b38        0x0 linker stubs
+ .glue_7        0x08005b34        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x08005b38        0x0 linker stubs
+ .glue_7t       0x08005b34        0x0 linker stubs
  *(.eh_frame)
  *(.init)
  *(.fini)
-                0x08005b38                . = ALIGN (0x4)
-                0x08005b38                _etext = .
+                0x08005b34                . = ALIGN (0x4)
+                0x08005b34                _etext = .
 
-.vfp11_veneer   0x08005b38        0x0
- .vfp11_veneer  0x08005b38        0x0 linker stubs
+.vfp11_veneer   0x08005b34        0x0
+ .vfp11_veneer  0x08005b34        0x0 linker stubs
 
-.v4_bx          0x08005b38        0x0
- .v4_bx         0x08005b38        0x0 linker stubs
+.v4_bx          0x08005b34        0x0
+ .v4_bx         0x08005b34        0x0 linker stubs
 
-.iplt           0x08005b38        0x0
- .iplt          0x08005b38        0x0 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/obj/error.o
+.iplt           0x08005b34        0x0
+ .iplt          0x08005b34        0x0 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/obj/error.o
 
-.rodata         0x08005b38      0x3f0
-                0x08005b38                . = ALIGN (0x4)
+.rodata         0x08005b34      0x3f0
+                0x08005b34                . = ALIGN (0x4)
  *(.rodata)
- .rodata        0x08005b38       0x10 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(nvmem_api.o)
- .rodata        0x08005b48       0x34 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
-                0x08005b48                fsync_lut_tx
-                0x08005b6c                public_key
- .rodata        0x08005b7c       0x10 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_scramb.o)
- .rodata        0x08005b8c      0x100 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(aes.o)
-                0x08005b8c                STable
- .rodata        0x08005c8c      0x190 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(rf_api.o)
- .rodata        0x08005e1c       0x20 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_decode.o)
-                0x08005e1c                pow_alpha
-                0x08005e2c                log_alpha
- .rodata        0x08005e3c       0xac c:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp\libgcc.a(divsf3.o)
- .rodata        0x08005ee8       0x40 c:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp\libgcc.a(mulsf3.o)
+ .rodata        0x08005b34       0x10 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(nvmem_api.o)
+ .rodata        0x08005b44       0x34 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
+                0x08005b44                fsync_lut_tx
+                0x08005b68                public_key
+ .rodata        0x08005b78       0x10 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_scramb.o)
+ .rodata        0x08005b88      0x100 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(aes.o)
+                0x08005b88                STable
+ .rodata        0x08005c88      0x190 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(rf_api.o)
+ .rodata        0x08005e18       0x20 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_decode.o)
+                0x08005e18                pow_alpha
+                0x08005e28                log_alpha
+ .rodata        0x08005e38       0xac c:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp\libgcc.a(divsf3.o)
+ .rodata        0x08005ee4       0x40 c:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v6-m/nofp\libgcc.a(mulsf3.o)
  *(.rodata*)
-                0x08005f28                . = ALIGN (0x4)
+                0x08005f24                . = ALIGN (0x4)
 
-.rel.dyn        0x08005f28        0x0
- .rel.iplt      0x08005f28        0x0 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/obj/error.o
+.rel.dyn        0x08005f24        0x0
+ .rel.iplt      0x08005f24        0x0 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/obj/error.o
 
-.ARM.extab      0x08005f28        0x0
-                0x08005f28                . = ALIGN (0x4)
+.ARM.extab      0x08005f24        0x0
+                0x08005f24                . = ALIGN (0x4)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x08005f28                . = ALIGN (0x4)
+                0x08005f24                . = ALIGN (0x4)
 
-.ARM            0x08005f28        0x0
-                0x08005f28                . = ALIGN (0x4)
-                0x08005f28                __exidx_start = .
+.ARM            0x08005f24        0x0
+                0x08005f24                . = ALIGN (0x4)
+                0x08005f24                __exidx_start = .
  *(.ARM.exidx*)
-                0x08005f28                __exidx_end = .
-                0x08005f28                . = ALIGN (0x4)
+                0x08005f24                __exidx_end = .
+                0x08005f24                . = ALIGN (0x4)
 
-.preinit_array  0x08005f28        0x0
-                0x08005f28                . = ALIGN (0x4)
-                0x08005f28                PROVIDE (__preinit_array_start = .)
+.preinit_array  0x08005f24        0x0
+                0x08005f24                . = ALIGN (0x4)
+                0x08005f24                PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x08005f28                PROVIDE (__preinit_array_end = .)
-                0x08005f28                . = ALIGN (0x4)
+                0x08005f24                PROVIDE (__preinit_array_end = .)
+                0x08005f24                . = ALIGN (0x4)
 
-.init_array     0x08005f28        0x0
-                0x08005f28                . = ALIGN (0x4)
-                0x08005f28                PROVIDE (__init_array_start = .)
+.init_array     0x08005f24        0x0
+                0x08005f24                . = ALIGN (0x4)
+                0x08005f24                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
-                0x08005f28                PROVIDE (__init_array_end = .)
-                0x08005f28                . = ALIGN (0x4)
+                0x08005f24                PROVIDE (__init_array_end = .)
+                0x08005f24                . = ALIGN (0x4)
 
-.fini_array     0x08005f28        0x0
-                0x08005f28                . = ALIGN (0x4)
+.fini_array     0x08005f24        0x0
+                0x08005f24                . = ALIGN (0x4)
                 [!provide]                PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
                 [!provide]                PROVIDE (__fini_array_end = .)
-                0x08005f28                . = ALIGN (0x4)
-                0x08005f28                _sidata = LOADADDR (.data)
+                0x08005f24                . = ALIGN (0x4)
+                0x08005f24                _sidata = LOADADDR (.data)
 
-.data           0x20000000      0x1e8 load address 0x08005f28
+.data           0x20000000      0x1e8 load address 0x08005f24
                 0x20000000                . = ALIGN (0x4)
                 0x20000000                _sdata = .
  *(.data)
@@ -1614,11 +1614,11 @@ LOAD C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-rei
  *fill*         0x200001e7        0x1 
                 0x200001e8                _edata = .
 
-.igot.plt       0x200001e8        0x0 load address 0x08006110
+.igot.plt       0x200001e8        0x0 load address 0x0800610c
  .igot.plt      0x200001e8        0x0 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/obj/error.o
                 0x200001e8                . = ALIGN (0x4)
 
-.bss            0x200001e8      0x5d0 load address 0x08006110
+.bss            0x200001e8      0x5d0 load address 0x0800610c
                 0x200001e8                _sbss = .
                 0x200001e8                __bss_start__ = _sbss
  *(.bss)
@@ -1669,7 +1669,7 @@ LOAD C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-rei
                 0x200007b8                __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x200007b8      0x400 load address 0x08006110
+                0x200007b8      0x400 load address 0x0800610c
                 0x200007b8                . = ALIGN (0x8)
                 [!provide]                PROVIDE (end = .)
                 [!provide]                PROVIDE (_end = .)
@@ -1857,7 +1857,7 @@ OUTPUT(C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-r
  .debug_ranges  0x000000c0       0x38 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/obj/fxos8700.o
  .debug_ranges  0x000000f8       0x10 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/obj/main.o
 
-.debug_line     0x00000000     0x1315
+.debug_line     0x00000000     0x1317
  .debug_line    0x00000000      0x1c4 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/obj/error.o
  .debug_line    0x000001c4      0x107 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/obj/button.o
  .debug_line    0x000002cb      0x10e C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/obj/battery.o
@@ -1868,7 +1868,7 @@ OUTPUT(C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-r
  .debug_line    0x00000824      0x2c9 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/obj/hts221.o
  .debug_line    0x00000aed      0x25e C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/obj/ltr329.o
  .debug_line    0x00000d4b      0x3a9 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/obj/fxos8700.o
- .debug_line    0x000010f4      0x221 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/obj/main.o
+ .debug_line    0x000010f4      0x223 C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/obj/main.o
 
 .debug_str      0x00000000      0xca7
  .debug_str     0x00000000      0x30d C:/Users/LENOVO/Documents/Reseaux_Ubiquitaire/hei-2019-2020-lab-sens-it-reinert-gerardin/sensit-sdk-v2.0.0/sdk/obj/error.o

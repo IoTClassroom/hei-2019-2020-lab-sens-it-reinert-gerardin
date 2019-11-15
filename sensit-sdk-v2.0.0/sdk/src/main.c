@@ -139,7 +139,11 @@ int main()
 
             /* Send the message */
             data_s henri={};
-            henri.EVENT_ID = 0b1111;
+            if(henri.EVENT_ID==0b0000){
+            	henri.EVENT_ID=0b0001;
+			}else{
+				henri.EVENT_ID=0b0000;
+			}
             err = RADIO_API_send_message(RGB_BLUE, (u8*)&henri, sizeof(henri), FALSE, NULL);
             /* Parse the error code */
             ERROR_parser(err);
