@@ -135,7 +135,7 @@ int main()
             DISCOVERY_build_payload(&payload, MODE_VIBRATION, &data);
 
             /* Send the message */
-            err = RADIO_API_send_message(RGB_BLUE, (u8*)&payload, DISCOVERY_PAYLOAD_SIZE, FALSE, NULL);
+            err = RADIO_API_send_message(RGB_BLUE, (u8*)&"IoT", 3, FALSE, NULL);
             /* Parse the error code */
             ERROR_parser(err);
 

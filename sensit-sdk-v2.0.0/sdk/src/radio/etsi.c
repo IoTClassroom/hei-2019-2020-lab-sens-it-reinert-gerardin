@@ -80,9 +80,6 @@ bool ETSI_handler(u8 frame_size, bool downlink_required)
         }
     }
 
-    /* Check if the transmission is allowed */
-    if ( (needed_duration + used_duration) <= ETSI_MAX_ALLOWED_TX_DURATION )
-    {
         /* Transmission allowed. Save timestamp & Tx duration */
         for (i = 0 ; i < 10 ; i++)
         {
@@ -96,12 +93,6 @@ bool ETSI_handler(u8 frame_size, bool downlink_required)
         }
 
         return TRUE;
-    }
-    else
-    {
-        /* Transmission forbidden */
-        return FALSE;
-    }
 }
 
 /*******************************************************************/
