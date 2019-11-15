@@ -135,12 +135,12 @@ int main()
         if (send == TRUE)
         {
             /* Build the payload */
-            DISCOVERY_build_payload(&payload, MODE_VIBRATION, &data);
+            //DISCOVERY_build_payload(&payload, MODE_VIBRATION, &data);
 
             /* Send the message */
-            data_s pull;
-            pull.EVENT_ID = 0b1111;
-            err = RADIO_API_send_message(RGB_BLUE, (u8*)&pull, sizeof(pull), FALSE, NULL);
+            data_s henri={};
+            henri.EVENT_ID = 0b1111;
+            err = RADIO_API_send_message(RGB_BLUE, (u8*)&henri, sizeof(henri), FALSE, NULL);
             /* Parse the error code */
             ERROR_parser(err);
 
